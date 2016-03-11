@@ -8,9 +8,9 @@ management:
 logging: # <----New sections below
   level:
     io:
-      pivotal: WARN
+      pivotal: DEBUG
 
 greeting:
-  displayFortune: false
+  displayFortune: true
 
 quoteServiceURL: https://github.com/kallab/app-config.git
